@@ -48,22 +48,20 @@
 
 			<!-- search button -->		
 			<div data-role="content">
-			<form method="get" action="http://www.google.com/search">	
+		<form method="get" action="http://www.google.com/search">	
 			<fieldset class="ui-grid-a">
-			<div class="ui-block-a">
-      		<input type="text" id="" name="g" value="" placeholder="start searching">
-			</div>
-			<div class="ui-block-b">
-       		<input type="submit" id="" name="" value="GO" data-icon="search">
-			</div>
-			</form>	
-			</div>
-		
-		
-	
-		
+				<div class="ui-block-a">
+      				<input type="text" id="" name="g" value="" placeholder="start searching">
+				</div>
+				<div class="ui-block-b">
+       				<input type="submit" id="" name="" value="GO" data-icon="search">
+				</div>
+		</form>	
+			    </div>
+			
+			
 			<div data-role="content">
-			<a href="#error"><img src="images/tickets.jpg" align="right"/>
+			<a href="#error"><img src="images/tickets.jpg" align="right"/></a>
 			<p align="middle">Voted the #1 ticket app!</p>
 			<a href="#facebook"><p align="middle">Like us on Facebook</p></a>
 			</div>
@@ -260,7 +258,7 @@
 		 	<ul data-role="listview" >
 		 	
 		 		<li>
-		 			<a href= "#football">
+		 			<a href= "#panthers">
 		 			<h1>Football</h1>
 		 			<img src="images/nfl.jpg"
 		 			 alt="Min Pin" />
@@ -298,6 +296,261 @@
   		 <div data-role="footer" data-position="fixed">
       	  <div data-role="navbar">
          	   <ul>	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+
+
+	<!-- Football one window drilllist-->   
+	<div data-role="page" id="panthers" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="fieldcontain">
+			<p align="center">Pick a NFL team</p>
+		</div>		
+				
+		<article data-role="content" >
+		 	<ul data-role="listview" >
+		 	
+		 		<li>
+		 			<a href= "#nfc">
+		 			<h1>NFC</h1>
+		 			 <p>National Football Conference.</p>
+		 			 </a>
+		 			</li>
+		 			
+					<li>
+						<a href="#afc">
+						<h1>AFC</h1>
+						<p>American Football Conference.</p>
+						</a>
+					</li>
+		
+				</ul>
+			</article>
+		
+  	 <div data-role="footer" data-position="fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+
+
+	<!-- Football // NFC teams -->   
+	<div data-role="page" id="nfc" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="fieldcontain">
+			<p align="center">Pick NFC teams</p>
+		</div>		
+				
+		<article data-role="content" >
+		 	<ul data-role="listview" >
+		 	
+		 		<li>
+		 			<a href= "#error">
+		 			<h1>NFC North</h1>
+		 			 </a>
+		 			</li>
+		 			
+					<li>
+						<a href="#south">
+						<h1>NFC South</h1>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#error">
+						<h1>NFC West</h1>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#error">
+						<h1>NFC East</h1>
+						</a>
+					</li>
+				</ul>
+			</article>	
+  	 <div data-role="footer" data-position="fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+
+
+
+	
+	<!-- Football // AFC teams -->   
+	<div data-role="page" id="afc" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>					
+	<img src="images/nfl.jpg" class="fullscreen">
+  	 <div data-role="footer" data-position= "fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+
+
+	
+	<!-- Football // NFC South -->   
+	<div data-role="page" id="south" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="fieldcontain">
+			<p align="center">Pick AFC teams</p>
+		</div>		
+				
+		<article data-role="content" >
+		 	<ul data-role="listview" >
+		 	
+		 		<li>
+		 			<a href= "#error">
+		 			<h1>Atlanta Falcons</h1>
+		 			 </a>
+		 			</li>
+		 			
+					<li>
+						<a href= "#NFCsouth">
+						<h1 data-theme="b">Carolina Panthers</h1>
+						</a>
+					</li>
+					
+					<li>
+						<a href= "#error">
+						<h1>New Orleans Saints</h1>
+						</a>
+					</li>
+					
+					<li>
+						<a href= "#error">
+						<h1>Tampa Bay Buccaneers</h1>
+						</a>
+					</li>
+				</ul>
+			</article>	
+  	 <div data-role="footer" data-position= "#error">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+
+
+
+
+	
+	<!-- Football // Carolina Panthers!!! -->   
+	<div data-role="page" id="NFCsouth" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="fieldcontain">
+			<p align="center">tickets</p>
+		</div>		
+				
+		<article data-role="content" data-theme="b">
+		 	<ul data-role="listview" >
+		 	
+		 		<li>
+		 			<a href= "#seasonTicket">
+		 			<h1>Season Tickets</h1>
+		 			 </a>
+		 			</li>
+		 			
+					<li>
+						<a href= "#singleTicket">
+						<h1>Single Tickets</h1>
+						</a>
+					</li>
+				</ul>
+			</article>	
+  	 <div data-role="footer" data-position= "fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+
+
+	
+	<!-- single tickets -->   
+	<div data-role="page" id="singleTicket" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="content" data-role="fieldcontain">
+			<p align="middle">Single Ticket</p>
+		
+			<img src="images/cam.jpeg" align="middle"/>	
+		</div>
+		
+		<p align="center"><a href="#error">Buy now!</a></p>
+				
+  	 <div data-role="footer" data-position="fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+	<!-- season tickets -->   
+	<div data-role="page" id="seasonTicket" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="content" data-role="fieldcontain">
+			<p align="middle">Season Ticket</p>
+		</div>
+			<img src="images/psl.jpg" align="middle" class="fullscreen"/>	
+			
+			<p align="center"><a href="#error">Buy now!</a></p>
+				
+  	 <div data-role="footer" data-position="fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
                	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
                	 <li><a href="#links" data-icon="gear">About Us</a></li>
            	 </ul>
@@ -385,10 +638,7 @@
 		<a href="#error"><img src="images/gloves.jpg" alt="nfl2"/></a>
 		<a href="#error"><img src="images/nfl.jpeg" alt="nfl3"/></a>
 	 </div>	
-
 		
-
-			
   	 <div data-role="footer" data-position="fixed">
       	  <div data-role="navbar">
          	   <ul>	  
