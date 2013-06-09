@@ -20,7 +20,8 @@
 	
 	<!-- StyleSheets under here -->
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
+	<!-- <link rel="stylesheet" href="css/style.css" />  -->
+	<link rel="stylesheet" href="css/image.css" />
 	
 	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
 	<script src="js/libs/modernizr.custom.min.js"></script>
@@ -58,8 +59,11 @@
 			</form>	
 			</div>
 		
+		
+	
+		
 			<div data-role="content">
-			<img src="images/tickets.jpg" align="right"/>
+			<a href="#error"><img src="images/tickets.jpg" align="right"/>
 			<p align="middle">Voted the #1 ticket app!</p>
 			<a href="#facebook"><p align="middle">Like us on Facebook</p></a>
 			</div>
@@ -187,9 +191,10 @@
 		</div>	
 		
 		<ul data-role="listview" data-inset="true">
-   			<li><a href="http://benzeclipse.github.com/GOLD">GOLD APP</a></li>
-   			<li><a href="#">BRONZE APP</a></li>
-   			<li><a href="https://github.com/benzeclipse/GOLD.git">GIT</a></li>
+   			<li><a href="http://benzeclipse.github.com/gold2">GOLD APP</a></li>
+   			<li><a href="http://benzeclipse.github.com/BRONZE2">BRONZE APP</a></li>
+   			<li><a href="https://github.com/benzeclipse/gold2.git">GIT gold link</a></li>
+   			<li><a href="https://github.com/benzeclipse/BRONZE2.git">GIT bronze link</a></li>
    			<li><a href="#contactUs">CONTACT US</a></li>
 		</ul>
 		
@@ -281,6 +286,12 @@
 						</a>
 					</li>
 					
+					<li>
+						<a href="#error">
+						<h1 align="center">and more..</h1>
+						</a>
+					</li>
+					
 				</ul>
 			</article>
 	
@@ -306,13 +317,13 @@
 		</div>
 
 	
-		<div data-role="page" id="baksetball">
+	<div data-role="page" id="baksetball">
 		<header data-role="header">
 			<h1>Ticket Hub</h1> 
 			<a href="#shopTicket" data-icon="back">back</a>
 		</header>
 		<img src="images/nba.jpg" class="fullscreen">	 <!-- class for resizing images -->	
-		</div>
+		</div>  
 
 
 		<div data-role="page" id="baseball">
@@ -358,58 +369,27 @@
 		<div data-role="header" data-position="fixed" data-theme="b" >
 			<h1>Ticket Hub</h1>
 		</div>	
-	
+
+		<br>
 		<div data-role="fieldcontain">
-			<p align="middle">testing!</p>
-		</div>	
+			<h2><p align="middle">Start shopping sport apparels!</p></h2>
+			<p align="middle">Click on the pictures below</p>
+		</div>
+		</br>
 
+	<div id="imagelist" align="center">
+		<a href="#error"><img src="images/jersey.jpeg" alt="nfl"/></a>
+		<a href="#error"><img src="images/shirt.jpg" alt="nfl2"/></a>
+		<a href="#error"><img src="images/ny.jpeg" alt="nfl3"/></a>
+		<a href="#error"><img src="images/sneaker.jpg" alt="nfl"/></a>
+		<a href="#error"><img src="images/gloves.jpg" alt="nfl2"/></a>
+		<a href="#error"><img src="images/nfl.jpeg" alt="nfl3"/></a>
+	 </div>	
 
-
-
-
-
-		<div data-role="content">
-			<div class="ui-grid-a">
-				<div class="ui-block-a">
-					<ul data-role="listview" data-inset="true">
-						<li data-role="list-divider">Tickets</li>
-						<li>NFL</li>
-						<li>NBA</li>
-						<li>MLB</li>
-				    </ul>
-				</div>
-				
-			
-			<div class="ui-block-b">
-					<ul data-role="listview" data-inset="true">
-						<li data-role="list-divider">Tickets</li>
-						<li> canon 1</li>
-						<li> canon 2</li>
-						<li> canon 3</li>
-				    </ul>
-				</div>	
-				
-				
-				
-				<div class="ui-grid-b">
-						<div class="ui-block-a"><div class="ui-bar ui-bar-b">Photo1</div></div>
-						<div class="ui-block-b">Photo2</div>
-						<div class="ui-block-a">Photo3</div>
-						<div class="ui-block-b">Photo4</div>
-						<div class="ui-block-a">Photo5</div>
-						<div class="ui-block-b">Photo6</div>
-				    </div>
-				</div>
-				
-				
-				
-					
 		
-	</div>
-				
-		
+
 			
-  	 <div data-role="footer" data-position="bottom">
+  	 <div data-role="footer" data-position="fixed">
       	  <div data-role="navbar">
          	   <ul>	  
                	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
@@ -417,15 +397,9 @@
            	 </ul>
        	 </div><!-- /navbar -->
 	</div><!-- /footer -->   
-	</div>
+	</div>  -->
 
-
-
-
-
-
-
-
+		
 
 
 
@@ -436,7 +410,7 @@
 	<!-- JavaScript under here -->
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
-
+	  <script type="text/javascript" src="grid.js"></script>
 
 </body>
 </html>

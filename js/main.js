@@ -344,7 +344,5 @@ window.addEventListener( "DOMContentLoaded", function() {
 		
 		
 		
-		
-		
 
 });
