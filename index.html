@@ -46,19 +46,32 @@
 			<h1>Ticket Hub</h1>
 		</div> 
 
+		<form method="get" action="http://www.google.com/search">
+		<div>
+			<tr><td> <!-- Search Button -->
+				<input type="text" name="q" size="25" maxlength="255" value="" placeholder="enter something" />
+				<input type="submit" value="GO" data-icon="search"/></td></tr>
+			<tr><td align="center" style="font-size:75%">	
+			</td>
+			</tr>
+  		</div>	
+	</form>
+
+
 			<!-- search button -->		
-			<div data-role="content">
-		<form method="get" action="http://www.google.com/search">	
+			
+<!--		<form method="get" action="http://www.google.com/search">	
+		<div data-role="content">
 			<fieldset class="ui-grid-a">
 				<div class="ui-block-a">
-      				<input type="text" id="" name="g" value="" placeholder="start searching">
+      				<input type="text" id="" name="g" value="" placeholder="start searching" size="25" maxlength="200">
 				</div>
 				<div class="ui-block-b">
        				<input type="submit" id="" name="" value="GO" data-icon="search">
 				</div>
-		</form>	
+		
 			    </div>
-			
+			</form> -->
 			
 			<div data-role="content">
 			<a href="#error"><img src="images/tickets.jpg" align="right"/></a>
@@ -117,7 +130,7 @@
    			
 			</div>
 			
-			</ul> 
+			</ul>  
 		
   	 <div data-role="footer" >
       	  <div data-role="navbar">
@@ -320,6 +333,8 @@
 		 		<li>
 		 			<a href= "#nfc">
 		 			<h1>NFC</h1>
+		 			<img src="images/nfc.gif"
+						alt="nfc" />
 		 			 <p>National Football Conference.</p>
 		 			 </a>
 		 			</li>
@@ -327,6 +342,8 @@
 					<li>
 						<a href="#afc">
 						<h1>AFC</h1>
+						<img src="images/afc.png"
+						alt="afc" />
 						<p>American Football Conference.</p>
 						</a>
 					</li>
@@ -432,7 +449,7 @@
 		 	<ul data-role="listview" >
 		 	
 		 		<li>
-		 			<a href= "#error">
+		 			<a href= "#atlanta">
 		 			<h1>Atlanta Falcons</h1>
 		 			 </a>
 		 			</li>
@@ -444,13 +461,13 @@
 					</li>
 					
 					<li>
-						<a href= "#error">
+						<a href= "#saints">
 						<h1>New Orleans Saints</h1>
 						</a>
 					</li>
 					
 					<li>
-						<a href= "#error">
+						<a href= "#tampa">
 						<h1>Tampa Bay Buccaneers</h1>
 						</a>
 					</li>
@@ -478,7 +495,7 @@
 			<h1>Ticket Hub</h1>
 		</div>	
 		<div data-role="fieldcontain">
-			<p align="center">tickets</p>
+			<p align="center">Tickets</p>
 		</div>		
 				
 		<article data-role="content" data-theme="b">
@@ -510,6 +527,122 @@
 
 
 
+		
+	<!-- Football // Atlanta -->   
+	<div data-role="page" id="atlanta" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="fieldcontain">
+			<p align="center">Tickets</p>
+		</div>		
+				
+		<article data-role="content" data-theme="a">
+		 	<ul data-role="listview" >
+		 	
+		 		<li>
+		 			<a href= "#error">
+		 			<h1>Season Tickets</h1>
+		 			 </a>
+		 			</li>
+		 			
+					<li>
+						<a href= "#error">
+						<h1>Single Tickets</h1>
+						</a>
+					</li>
+				</ul>
+			</article>	
+  	 <div data-role="footer" data-position="fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+
+		
+	<!-- Football // Saints-->   
+	<div data-role="page" id="saints" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="fieldcontain">
+			<p align="center">Tickets</p>
+		</div>		
+				
+		<article data-role="content" data-theme="e">
+		 	<ul data-role="listview" >
+		 	
+		 		<li>
+		 			<a href= "#error">
+		 			<h1>Season Tickets</h1>
+		 			 </a>
+		 			</li>
+		 			
+					<li>
+						<a href= "#error">
+						<h1>Single Tickets</h1>
+						</a>
+					</li>
+				</ul>
+			</article>	
+  	 <div data-role="footer" data-position="fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+
+	
+			
+	<!-- Football // Tampa Bay-->   
+	<div data-role="page" id="tampa" data-id="displayingData" data-add-back-btn="true"> 
+		<div data-role="header" data-position="fixed" data-theme="b" >
+			<h1>Ticket Hub</h1>
+		</div>	
+		<div data-role="fieldcontain">
+			<p align="center">Tickets</p>
+		</div>		
+				
+		<article data-role="content" data-theme="c">
+		 	<ul data-role="listview" >
+		 	
+		 		<li>
+		 			<a href= "#error">
+		 			<h1>Season Tickets</h1>
+		 			 </a>
+		 			</li>
+		 			
+					<li>
+						<a href= "#error">
+						<h1>Single Tickets</h1>
+						</a>
+					</li>
+				</ul>
+			</article>	
+  	 <div data-role="footer" data-position="fixed">
+      	  <div data-role="navbar">
+         	   <ul>
+              	  
+               	 <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+               	 <li><a href="#links" data-icon="gear">About Us</a></li>
+           	 </ul>
+       	 </div><!-- /navbar -->
+	</div><!-- /footer -->   
+	</div>
+	
+	
+	
+	
 	
 	<!-- single tickets -->   
 	<div data-role="page" id="singleTicket" data-id="displayingData" data-add-back-btn="true"> 
@@ -623,17 +756,17 @@
 			<h1>Ticket Hub</h1>
 		</div>	
 
-		<br>
+	
 		<div data-role="fieldcontain">
-			<h2><p align="middle">Start shopping sport apparels!</p></h2>
+			<h3><p align="middle">Start shopping sport apparels!</p></h3>
 			<p align="middle">Click on the pictures below</p>
 		</div>
-		</br>
+	
 
 	<div id="imagelist" align="center">
 		<a href="#error"><img src="images/jersey.jpeg" alt="nfl"/></a>
 		<a href="#error"><img src="images/shirt.jpg" alt="nfl2"/></a>
-		<a href="#error"><img src="images/ny.jpeg" alt="nfl3"/></a>
+		<a href="#error"><img src="images/carolina.jpg" alt="nfl3"/></a>
 		<a href="#error"><img src="images/sneaker.jpg" alt="nfl"/></a>
 		<a href="#error"><img src="images/gloves.jpg" alt="nfl2"/></a>
 		<a href="#error"><img src="images/nfl.jpeg" alt="nfl3"/></a>
